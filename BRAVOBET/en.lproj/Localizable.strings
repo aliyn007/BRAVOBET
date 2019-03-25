@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  BRAVOBET
+
+  Created by Александр on 10/31/18.
+  Copyright © 2018 Aleksandr ILIN. All rights reserved.
+*/
+"Заполните все поля" = "Fill in all the fields";
+"Ошибка" = "Error";
+"Напишите свой отзыв" = "Write your review";
+"Вы успешно обновили данные" = "You have successfully updated the data";
+"Выберите источник фотографии" = "Select photo source";
+"Камера" = "Сamera";
+"Фотогаллерея" = "Photo Gallery";
+"Вы успешно зарегистрированы" = "You have successfully registered";
+"Восстановление пароля" = "Password recovery";
+"На указанный адрес прийдет сообщение c дальнейшими указаниями" = "You will find the address at the address of your visit with the following orders ";
+"Вы успешно зашли" = "You have successfully logged in";
+"Зарегистрироваться" = "Register";
+"Написать отзыв" = "Write a review";
+"Укажите свое имя и город" = "Enter your name and city";
+"Профиль Каппера" = "Capper profile";
+"Редактирование профиля" = "Profile editing";
+"Профиль" = "Profile";
+"Отзывы" = "Comments";
+"Обновить" = "Update";
+"Live match" = "Live match";
+"сейчас" = "now";
+"секунд назад" = "seconds ago";
+"минут назад" = "minutes ago";
+"час назад" = "hours ago";
+"дней назад" = "days ago";
+"Удалить" = "Delete";
+"Выйти" = "Exit";
+"Вы собираетесь выйти или удалить аккаунт" = "You are about to log out or delete your account";
+"Настройте вашу почту на телефоне" = "Set up your email on your phone";
+"Пользовательское соглашение" = "Terms of use";
+"Компания BRAVOBET  не устраивает и не проводит азартные игры. Вы получаете услугу в виде прогноза на спортивное событие от аналитика в области спорта.Я не несу ответственности за исход события.Информация носит ознокомительный характер." = "Компания BRAVOBET  не устраивает и не проводит азартные игры. Вы получаете услугу в виде прогноза на спортивное событие от аналитика в области спорта.Я не несу ответственности за исход события.Информация носит ознокомительный характер.";
+"Я соглашаюсь" = "I agree";
+"Отмена" = "Cancel";
+"На данный момент комментариев нет" = "At the moment there are no comments";
+"Ждём ваши комментарии" = "We are waiting for your comments";

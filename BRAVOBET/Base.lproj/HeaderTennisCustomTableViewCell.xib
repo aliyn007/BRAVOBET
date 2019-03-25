@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="300" id="KGk-i7-Jjw" customClass="HeaderTennisCustomTableViewCell" customModule="BRAVOBET" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="349.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tennisOboi" translatesAutoresizingMaskIntoConstraints="NO" id="C78-go-e57">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="277"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rei-pI-wN8">
+                        <rect key="frame" x="234" y="253" width="50" height="50"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="d8l-zh-T0R"/>
+                            <constraint firstAttribute="width" constant="50" id="ryC-F6-wGE"/>
+                        </constraints>
+                        <color key="tintColor" red="0.13725490200000001" green="0.1450980392" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                        <state key="normal" image="claping-hands"/>
+                        <connections>
+                            <action selector="btnBravoTennis:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gGU-hF-sKg"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXp-Ai-g1j">
+                        <rect key="frame" x="238" y="310" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="A2h-p7-3wi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhE-eN-DwT">
+                        <rect key="frame" x="9" y="285" width="207" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="207" id="4Y3-iQ-hNB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="51j-NM-UUr">
+                        <rect key="frame" x="73" y="62" width="174" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="174" id="djU-Zn-w9y"/>
+                            <constraint firstAttribute="height" constant="152" id="fbi-N0-4x4"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="rei-pI-wN8" firstAttribute="leading" secondItem="yhE-eN-DwT" secondAttribute="trailing" constant="18" id="4Ic-Ha-oKv"/>
+                    <constraint firstItem="51j-NM-UUr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="73" id="92q-zd-Ue6"/>
+                    <constraint firstAttribute="trailing" secondItem="rei-pI-wN8" secondAttribute="trailing" constant="36" id="GDe-NJ-a6E"/>
+                    <constraint firstItem="rei-pI-wN8" firstAttribute="top" secondItem="51j-NM-UUr" secondAttribute="bottom" constant="39" id="HG3-dS-tCY"/>
+                    <constraint firstAttribute="trailing" secondItem="C78-go-e57" secondAttribute="trailing" id="Nng-38-9rJ"/>
+                    <constraint firstItem="yhE-eN-DwT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="PQN-Gz-3Zx"/>
+                    <constraint firstAttribute="trailing" secondItem="51j-NM-UUr" secondAttribute="trailing" constant="73" id="UwH-Un-YKG"/>
+                    <constraint firstItem="C78-go-e57" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fGp-mY-sLh"/>
+                    <constraint firstItem="yhE-eN-DwT" firstAttribute="top" secondItem="C78-go-e57" secondAttribute="bottom" constant="8" id="qGG-h3-Lx1"/>
+                    <constraint firstAttribute="bottom" secondItem="bXp-Ai-g1j" secondAttribute="bottom" constant="18.5" id="qnh-mt-8kY"/>
+                    <constraint firstItem="bXp-Ai-g1j" firstAttribute="top" secondItem="rei-pI-wN8" secondAttribute="bottom" constant="7" id="s5O-DR-EN5"/>
+                    <constraint firstItem="yhE-eN-DwT" firstAttribute="top" secondItem="51j-NM-UUr" secondAttribute="bottom" constant="71" id="suc-xs-T7P"/>
+                    <constraint firstItem="51j-NM-UUr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="62" id="uC4-VB-YMf"/>
+                    <constraint firstAttribute="trailing" secondItem="bXp-Ai-g1j" secondAttribute="trailing" constant="40" id="vCL-se-uEI"/>
+                    <constraint firstItem="C78-go-e57" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xxk-1d-mxf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bravoTennisCount" destination="bXp-Ai-g1j" id="Ne1-Cc-5xh"/>
+                <outlet property="btnBravoTennis" destination="rei-pI-wN8" id="Haf-xz-Eud"/>
+                <outlet property="imageTennis" destination="51j-NM-UUr" id="7PE-4G-12Z"/>
+                <outlet property="titleTennis" destination="yhE-eN-DwT" id="dHc-Kn-ZUM"/>
+            </connections>
+            <point key="canvasLocation" x="36.799999999999997" y="116.94152923538232"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="claping-hands" width="42.5" height="43.5"/>
+        <image name="tennisOboi" width="509" height="318"/>
+    </resources>
+</document>

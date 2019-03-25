@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F196DA7216CE2510008A073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F196DA6216CE2510008A073 /* AppDelegate.swift */; };
+		1F741B482189BA07001CA684 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F741B462189BA07001CA684 /* Localizable.strings */; };
+		1F9795D92185B0FD00576D2C /* LiveMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9795D82185B0FD00576D2C /* LiveMatchViewController.swift */; };
+		1F9DBA7521FEECB30026764D /* AnimaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DBA7421FEECB30026764D /* AnimaTabViewController.swift */; };
+		1FB4E3CD216CEA0C00AB0D3E /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E39B216CEA0600AB0D3E /* CommentViewController.swift */; };
+		1FB4E3CE216CEA0C00AB0D3E /* DesigneUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E39C216CEA0600AB0D3E /* DesigneUITextField.swift */; };
+		1FB4E3CF216CEA0C00AB0D3E /* LauncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E39D216CEA0600AB0D3E /* LauncViewController.swift */; };
+		1FB4E3D0216CEA0C00AB0D3E /* InfoMy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E39E216CEA0600AB0D3E /* InfoMy.swift */; };
+		1FB4E3D1216CEA0C00AB0D3E /* CustomHeaderBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E39F216CEA0600AB0D3E /* CustomHeaderBasket.swift */; };
+		1FB4E3D2216CEA0C00AB0D3E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A0216CEA0600AB0D3E /* Comment.swift */; };
+		1FB4E3D3216CEA0C00AB0D3E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A1216CEA0700AB0D3E /* Alert.swift */; };
+		1FB4E3D4216CEA0C00AB0D3E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A2216CEA0700AB0D3E /* Date.swift */; };
+		1FB4E3D6216CEA0C00AB0D3E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A4216CEA0700AB0D3E /* UserProfile.swift */; };
+		1FB4E3D7216CEA0C00AB0D3E /* Tennis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A5216CEA0700AB0D3E /* Tennis.swift */; };
+		1FB4E3D8216CEA0C00AB0D3E /* ViewDesigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A6216CEA0700AB0D3E /* ViewDesigne.swift */; };
+		1FB4E3D9216CEA0C00AB0D3E /* DetailBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A7216CEA0700AB0D3E /* DetailBasketViewController.swift */; };
+		1FB4E3DA216CEA0C00AB0D3E /* RecallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A8216CEA0700AB0D3E /* RecallViewController.swift */; };
+		1FB4E3DB216CEA0C00AB0D3E /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3A9216CEA0700AB0D3E /* FacebookViewController.swift */; };
+		1FB4E3DC216CEA0C00AB0D3E /* DesigneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AA216CEA0700AB0D3E /* DesigneButton.swift */; };
+		1FB4E3DD216CEA0C00AB0D3E /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AB216CEA0800AB0D3E /* ContactTableViewCell.swift */; };
+		1FB4E3DE216CEA0C00AB0D3E /* StructuraColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AC216CEA0800AB0D3E /* StructuraColor.swift */; };
+		1FB4E3DF216CEA0C00AB0D3E /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AD216CEA0800AB0D3E /* RegistrationController.swift */; };
+		1FB4E3E0216CEA0C00AB0D3E /* UIButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AE216CEA0800AB0D3E /* UIButtonAnimation.swift */; };
+		1FB4E3E1216CEA0C00AB0D3E /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3AF216CEA0800AB0D3E /* Soccer.swift */; };
+		1FB4E3E2216CEA0C00AB0D3E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B0216CEA0800AB0D3E /* TabBarViewController.swift */; };
+		1FB4E3E3216CEA0C00AB0D3E /* FootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B1216CEA0800AB0D3E /* FootTableViewCell.swift */; };
+		1FB4E3E4216CEA0C00AB0D3E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B2216CEA0900AB0D3E /* Color.swift */; };
+		1FB4E3E5216CEA0C00AB0D3E /* Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B3216CEA0900AB0D3E /* Basketball.swift */; };
+		1FB4E3E6216CEA0C00AB0D3E /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B4216CEA0900AB0D3E /* InfoTableViewCell.swift */; };
+		1FB4E3E7216CEA0C00AB0D3E /* InfoUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B5216CEA0900AB0D3E /* InfoUserProfile.swift */; };
+		1FB4E3E8216CEA0C00AB0D3E /* HeaderMyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B6216CEA0900AB0D3E /* HeaderMyCellTableViewCell.swift */; };
+		1FB4E3E9216CEA0C00AB0D3E /* UserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B7216CEA0900AB0D3E /* UserHeaderView.swift */; };
+		1FB4E3EA216CEA0C00AB0D3E /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B8216CEA0900AB0D3E /* CommentTableViewCell.swift */; };
+		1FB4E3EB216CEA0C00AB0D3E /* DetailSoccerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3B9216CEA0900AB0D3E /* DetailSoccerTableViewController.swift */; };
+		1FB4E3EC216CEA0C00AB0D3E /* UserProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BA216CEA0A00AB0D3E /* UserProfileInfoTableViewCell.swift */; };
+		1FB4E3ED216CEA0C00AB0D3E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BB216CEA0A00AB0D3E /* UIView.swift */; };
+		1FB4E3EE216CEA0C00AB0D3E /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BC216CEA0A00AB0D3E /* GradientColor.swift */; };
+		1FB4E3EF216CEA0C00AB0D3E /* UserTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BD216CEA0A00AB0D3E /* UserTabBarViewController.swift */; };
+		1FB4E3F0216CEA0C00AB0D3E /* HeaderTennisCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BE216CEA0A00AB0D3E /* HeaderTennisCustomTableViewCell.swift */; };
+		1FB4E3F1216CEA0C00AB0D3E /* BasketballTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3BF216CEA0A00AB0D3E /* BasketballTableViewCell.swift */; };
+		1FB4E3F2216CEA0C00AB0D3E /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C0216CEA0A00AB0D3E /* UITextField.swift */; };
+		1FB4E3F3216CEA0C00AB0D3E /* UIButtonDesigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C1216CEA0A00AB0D3E /* UIButtonDesigne.swift */; };
+		1FB4E3F4216CEA0C00AB0D3E /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C2216CEA0B00AB0D3E /* ResetPassword.swift */; };
+		1FB4E3F5216CEA0C00AB0D3E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C3216CEA0B00AB0D3E /* InfoViewController.swift */; };
+		1FB4E3F6216CEA0C00AB0D3E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C4216CEA0B00AB0D3E /* TableViewCell.swift */; };
+		1FB4E3F7216CEA0C00AB0D3E /* DetailTennisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C5216CEA0B00AB0D3E /* DetailTennisViewController.swift */; };
+		1FB4E3F9216CEA0C00AB0D3E /* PrognozSegmentControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C7216CEA0B00AB0D3E /* PrognozSegmentControler.swift */; };
+		1FB4E3FA216CEA0C00AB0D3E /* TennisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C8216CEA0B00AB0D3E /* TennisTableViewCell.swift */; };
+		1FB4E3FB216CEA0C00AB0D3E /* TabBarNilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3C9216CEA0B00AB0D3E /* TabBarNilViewController.swift */; };
+		1FB4E3FC216CEA0C00AB0D3E /* CustomSoccerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3CA216CEA0C00AB0D3E /* CustomSoccerHeaderView.swift */; };
+		1FB4E3FD216CEA0C00AB0D3E /* convertNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3CB216CEA0C00AB0D3E /* convertNumber.swift */; };
+		1FB4E3FE216CEA0C00AB0D3E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4E3CC216CEA0C00AB0D3E /* LoginController.swift */; };
+		1FB4E402216CEB4F00AB0D3E /* Asset Catalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E401216CEB4F00AB0D3E /* Asset Catalog.xcassets */; };
+		1FB4E416216CEBDF00AB0D3E /* CustomSoccerHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E404216CEBDD00AB0D3E /* CustomSoccerHeaderView.xib */; };
+		1FB4E417216CEBDF00AB0D3E /* FootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E406216CEBDD00AB0D3E /* FootTableViewCell.xib */; };
+		1FB4E418216CEBDF00AB0D3E /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E408216CEBDD00AB0D3E /* CommentTableViewCell.xib */; };
+		1FB4E419216CEBDF00AB0D3E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E40A216CEBDE00AB0D3E /* TableViewCell.xib */; };
+		1FB4E41A216CEBDF00AB0D3E /* TennisTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E40C216CEBDE00AB0D3E /* TennisTableViewCell.xib */; };
+		1FB4E41B216CEBDF00AB0D3E /* HeaderTennisCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E40E216CEBDE00AB0D3E /* HeaderTennisCustomTableViewCell.xib */; };
+		1FB4E41C216CEBDF00AB0D3E /* CustomHeaderBasket.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E410216CEBDE00AB0D3E /* CustomHeaderBasket.xib */; };
+		1FB4E41D216CEBDF00AB0D3E /* UserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E412216CEBDE00AB0D3E /* UserHeaderView.xib */; };
+		1FB4E41E216CEBDF00AB0D3E /* BasketballTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4E414216CEBDE00AB0D3E /* BasketballTableViewCell.xib */; };
+		1FB5EAF121835C41003A59C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5EAF321835C41003A59C5 /* Main.storyboard */; };
+		1FE686C02185DFE900E74F05 /* LiveMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE686BF2185DFE900E74F05 /* LiveMatch.swift */; };
+		1FE686C32185E25B00E74F05 /* LiveMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE686C22185E25B00E74F05 /* LiveMatchTableViewCell.swift */; };
+		1FE987A9219328A6009C75BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F196DAF216CE2520008A073 /* LaunchScreen.storyboard */; };
+		A01E9074CA9FC008FE5D8743 /* Pods_BRAVOBET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF421EA77A283D4FFFEC82F /* Pods_BRAVOBET.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		077F35310E7E7CB3CE6F47C0 /* Pods-BRAVOBET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRAVOBET.debug.xcconfig"; path = "Target Support Files/Pods-BRAVOBET/Pods-BRAVOBET.debug.xcconfig"; sourceTree = "<group>"; };
+		1F196DA3216CE2510008A073 /* BRAVOBET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRAVOBET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F196DA6216CE2510008A073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F196DB0216CE2520008A073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F32E7B3219C8F1E00403FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1F351F99216E8D2C00E71292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1F622639216CFA9B00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/BasketballTableViewCell.strings; sourceTree = "<group>"; };
+		1F62263A216CFA9C00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CommentTableViewCell.strings; sourceTree = "<group>"; };
+		1F62263B216CFA9D00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CustomHeaderBasket.strings; sourceTree = "<group>"; };
+		1F62263C216CFA9D00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CustomSoccerHeaderView.strings; sourceTree = "<group>"; };
+		1F62263D216CFA9E00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FootTableViewCell.strings; sourceTree = "<group>"; };
+		1F62263E216CFA9E00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HeaderTennisCustomTableViewCell.strings; sourceTree = "<group>"; };
+		1F62263F216CFA9F00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TableViewCell.strings; sourceTree = "<group>"; };
+		1F622640216CFA9F00260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TennisTableViewCell.strings; sourceTree = "<group>"; };
+		1F622641216CFAA000260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/UserHeaderView.strings; sourceTree = "<group>"; };
+		1F622642216CFAA100260DA2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1F622643216CFB6700260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/BasketballTableViewCell.strings; sourceTree = "<group>"; };
+		1F622644216CFB6800260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/CommentTableViewCell.strings; sourceTree = "<group>"; };
+		1F622645216CFB6900260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/CustomHeaderBasket.strings; sourceTree = "<group>"; };
+		1F622646216CFB6900260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/CustomSoccerHeaderView.strings; sourceTree = "<group>"; };
+		1F622647216CFB6A00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/FootTableViewCell.strings; sourceTree = "<group>"; };
+		1F622648216CFB6A00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/HeaderTennisCustomTableViewCell.strings; sourceTree = "<group>"; };
+		1F622649216CFB6B00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TableViewCell.strings; sourceTree = "<group>"; };
+		1F62264A216CFB6B00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TennisTableViewCell.strings; sourceTree = "<group>"; };
+		1F62264B216CFB6C00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/UserHeaderView.strings; sourceTree = "<group>"; };
+		1F62264C216CFB6C00260DA2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1F741B472189BA07001CA684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F741B492189BA1C001CA684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F741B4A2189BA20001CA684 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F741B4B2189BA23001CA684 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F9795D82185B0FD00576D2C /* LiveMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchViewController.swift; sourceTree = "<group>"; };
+		1F9DBA7421FEECB30026764D /* AnimaTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaTabViewController.swift; sourceTree = "<group>"; };
+		1FB1C32221947B2500D97E72 /* BRAVOBET.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BRAVOBET.entitlements; sourceTree = "<group>"; };
+		1FB4E39B216CEA0600AB0D3E /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		1FB4E39C216CEA0600AB0D3E /* DesigneUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesigneUITextField.swift; sourceTree = "<group>"; };
+		1FB4E39D216CEA0600AB0D3E /* LauncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncViewController.swift; sourceTree = "<group>"; };
+		1FB4E39E216CEA0600AB0D3E /* InfoMy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMy.swift; sourceTree = "<group>"; };
+		1FB4E39F216CEA0600AB0D3E /* CustomHeaderBasket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderBasket.swift; sourceTree = "<group>"; };
+		1FB4E3A0216CEA0600AB0D3E /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		1FB4E3A1216CEA0700AB0D3E /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1FB4E3A2216CEA0700AB0D3E /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1FB4E3A4216CEA0700AB0D3E /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1FB4E3A5216CEA0700AB0D3E /* Tennis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tennis.swift; sourceTree = "<group>"; };
+		1FB4E3A6216CEA0700AB0D3E /* ViewDesigne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesigne.swift; sourceTree = "<group>"; };
+		1FB4E3A7216CEA0700AB0D3E /* DetailBasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBasketViewController.swift; sourceTree = "<group>"; };
+		1FB4E3A8216CEA0700AB0D3E /* RecallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecallViewController.swift; sourceTree = "<group>"; };
+		1FB4E3A9216CEA0700AB0D3E /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		1FB4E3AA216CEA0700AB0D3E /* DesigneButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesigneButton.swift; sourceTree = "<group>"; };
+		1FB4E3AB216CEA0800AB0D3E /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3AC216CEA0800AB0D3E /* StructuraColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructuraColor.swift; sourceTree = "<group>"; };
+		1FB4E3AD216CEA0800AB0D3E /* RegistrationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		1FB4E3AE216CEA0800AB0D3E /* UIButtonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonAnimation.swift; sourceTree = "<group>"; };
+		1FB4E3AF216CEA0800AB0D3E /* Soccer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
+		1FB4E3B0216CEA0800AB0D3E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1FB4E3B1216CEA0800AB0D3E /* FootTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3B2216CEA0900AB0D3E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1FB4E3B3216CEA0900AB0D3E /* Basketball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basketball.swift; sourceTree = "<group>"; };
+		1FB4E3B4216CEA0900AB0D3E /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3B5216CEA0900AB0D3E /* InfoUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoUserProfile.swift; sourceTree = "<group>"; };
+		1FB4E3B6216CEA0900AB0D3E /* HeaderMyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderMyCellTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3B7216CEA0900AB0D3E /* UserHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHeaderView.swift; sourceTree = "<group>"; };
+		1FB4E3B8216CEA0900AB0D3E /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3B9216CEA0900AB0D3E /* DetailSoccerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSoccerTableViewController.swift; sourceTree = "<group>"; };
+		1FB4E3BA216CEA0A00AB0D3E /* UserProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3BB216CEA0A00AB0D3E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1FB4E3BC216CEA0A00AB0D3E /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		1FB4E3BD216CEA0A00AB0D3E /* UserTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTabBarViewController.swift; sourceTree = "<group>"; };
+		1FB4E3BE216CEA0A00AB0D3E /* HeaderTennisCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTennisCustomTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3BF216CEA0A00AB0D3E /* BasketballTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3C0216CEA0A00AB0D3E /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		1FB4E3C1216CEA0A00AB0D3E /* UIButtonDesigne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonDesigne.swift; sourceTree = "<group>"; };
+		1FB4E3C2216CEA0B00AB0D3E /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		1FB4E3C3216CEA0B00AB0D3E /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		1FB4E3C4216CEA0B00AB0D3E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3C5216CEA0B00AB0D3E /* DetailTennisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTennisViewController.swift; sourceTree = "<group>"; };
+		1FB4E3C7216CEA0B00AB0D3E /* PrognozSegmentControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrognozSegmentControler.swift; sourceTree = "<group>"; };
+		1FB4E3C8216CEA0B00AB0D3E /* TennisTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisTableViewCell.swift; sourceTree = "<group>"; };
+		1FB4E3C9216CEA0B00AB0D3E /* TabBarNilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarNilViewController.swift; sourceTree = "<group>"; };
+		1FB4E3CA216CEA0C00AB0D3E /* CustomSoccerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSoccerHeaderView.swift; sourceTree = "<group>"; };
+		1FB4E3CB216CEA0C00AB0D3E /* convertNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convertNumber.swift; sourceTree = "<group>"; };
+		1FB4E3CC216CEA0C00AB0D3E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1FB4E401216CEB4F00AB0D3E /* Asset Catalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Asset Catalog.xcassets"; sourceTree = "<group>"; };
+		1FB4E405216CEBDD00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomSoccerHeaderView.xib; sourceTree = "<group>"; };
+		1FB4E407216CEBDD00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FootTableViewCell.xib; sourceTree = "<group>"; };
+		1FB4E409216CEBDD00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CommentTableViewCell.xib; sourceTree = "<group>"; };
+		1FB4E40B216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TableViewCell.xib; sourceTree = "<group>"; };
+		1FB4E40D216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TennisTableViewCell.xib; sourceTree = "<group>"; };
+		1FB4E40F216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HeaderTennisCustomTableViewCell.xib; sourceTree = "<group>"; };
+		1FB4E411216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomHeaderBasket.xib; sourceTree = "<group>"; };
+		1FB4E413216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UserHeaderView.xib; sourceTree = "<group>"; };
+		1FB4E415216CEBDE00AB0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BasketballTableViewCell.xib; sourceTree = "<group>"; };
+		1FB5EAF221835C41003A59C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB5EAF521835C84003A59C5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		1FB5EAF621835C86003A59C5 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		1FE686BF2185DFE900E74F05 /* LiveMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatch.swift; sourceTree = "<group>"; };
+		1FE686C22185E25B00E74F05 /* LiveMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchTableViewCell.swift; sourceTree = "<group>"; };
+		1FE987A721930B4A009C75BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF421EA77A283D4FFFEC82F /* Pods_BRAVOBET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRAVOBET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D9EF6D2A9767C68B26FD0 /* Pods-BRAVOBET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRAVOBET.release.xcconfig"; path = "Target Support Files/Pods-BRAVOBET/Pods-BRAVOBET.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F196DA0216CE2510008A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01E9074CA9FC008FE5D8743 /* Pods_BRAVOBET.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F196D9A216CE2510008A073 = {
+			isa = PBXGroup;
+			children = (
+				1F196DA5216CE2510008A073 /* BRAVOBET */,
+				1F196DA4216CE2510008A073 /* Products */,
+				85EAE97CAF0328957DF8CA1C /* Pods */,
+				8C4D6B5C83039C52AC831C9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F196DA4216CE2510008A073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F196DA3216CE2510008A073 /* BRAVOBET.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F196DA5216CE2510008A073 /* BRAVOBET */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1C32221947B2500D97E72 /* BRAVOBET.entitlements */,
+				1F196DA6216CE2510008A073 /* AppDelegate.swift */,
+				1F741B462189BA07001CA684 /* Localizable.strings */,
+				1FB5EAF321835C41003A59C5 /* Main.storyboard */,
+				1FB4E414216CEBDE00AB0D3E /* BasketballTableViewCell.xib */,
+				1FB4E408216CEBDD00AB0D3E /* CommentTableViewCell.xib */,
+				1FB4E410216CEBDE00AB0D3E /* CustomHeaderBasket.xib */,
+				1FB4E404216CEBDD00AB0D3E /* CustomSoccerHeaderView.xib */,
+				1FB4E406216CEBDD00AB0D3E /* FootTableViewCell.xib */,
+				1FB4E40E216CEBDE00AB0D3E /* HeaderTennisCustomTableViewCell.xib */,
+				1FB4E40A216CEBDE00AB0D3E /* TableViewCell.xib */,
+				1FB4E40C216CEBDE00AB0D3E /* TennisTableViewCell.xib */,
+				1FB4E412216CEBDE00AB0D3E /* UserHeaderView.xib */,
+				1FB4E3A1216CEA0700AB0D3E /* Alert.swift */,
+				1FB4E3B3216CEA0900AB0D3E /* Basketball.swift */,
+				1FB4E3BF216CEA0A00AB0D3E /* BasketballTableViewCell.swift */,
+				1F9795D82185B0FD00576D2C /* LiveMatchViewController.swift */,
+				1FE686C22185E25B00E74F05 /* LiveMatchTableViewCell.swift */,
+				1FB4E3B2216CEA0900AB0D3E /* Color.swift */,
+				1FB4E3A0216CEA0600AB0D3E /* Comment.swift */,
+				1FB4E3B8216CEA0900AB0D3E /* CommentTableViewCell.swift */,
+				1FB4E39B216CEA0600AB0D3E /* CommentViewController.swift */,
+				1FB4E3AB216CEA0800AB0D3E /* ContactTableViewCell.swift */,
+				1FB4E3CB216CEA0C00AB0D3E /* convertNumber.swift */,
+				1FB4E39F216CEA0600AB0D3E /* CustomHeaderBasket.swift */,
+				1FB4E3CA216CEA0C00AB0D3E /* CustomSoccerHeaderView.swift */,
+				1FB4E3A2216CEA0700AB0D3E /* Date.swift */,
+				1FB4E3AA216CEA0700AB0D3E /* DesigneButton.swift */,
+				1FB4E39C216CEA0600AB0D3E /* DesigneUITextField.swift */,
+				1FB4E3A7216CEA0700AB0D3E /* DetailBasketViewController.swift */,
+				1FB4E3B9216CEA0900AB0D3E /* DetailSoccerTableViewController.swift */,
+				1FB4E3C5216CEA0B00AB0D3E /* DetailTennisViewController.swift */,
+				1FB4E3A9216CEA0700AB0D3E /* FacebookViewController.swift */,
+				1FB4E3B1216CEA0800AB0D3E /* FootTableViewCell.swift */,
+				1FB4E3BC216CEA0A00AB0D3E /* GradientColor.swift */,
+				1FB4E3B6216CEA0900AB0D3E /* HeaderMyCellTableViewCell.swift */,
+				1FB4E3BE216CEA0A00AB0D3E /* HeaderTennisCustomTableViewCell.swift */,
+				1FB4E39E216CEA0600AB0D3E /* InfoMy.swift */,
+				1FB4E3B4216CEA0900AB0D3E /* InfoTableViewCell.swift */,
+				1FB4E3B5216CEA0900AB0D3E /* InfoUserProfile.swift */,
+				1FB4E3C3216CEA0B00AB0D3E /* InfoViewController.swift */,
+				1FB4E39D216CEA0600AB0D3E /* LauncViewController.swift */,
+				1FB4E3CC216CEA0C00AB0D3E /* LoginController.swift */,
+				1FB4E3C7216CEA0B00AB0D3E /* PrognozSegmentControler.swift */,
+				1FB4E3A8216CEA0700AB0D3E /* RecallViewController.swift */,
+				1FB4E3AD216CEA0800AB0D3E /* RegistrationController.swift */,
+				1FB4E3C2216CEA0B00AB0D3E /* ResetPassword.swift */,
+				1FB4E3AF216CEA0800AB0D3E /* Soccer.swift */,
+				1FB4E3AC216CEA0800AB0D3E /* StructuraColor.swift */,
+				1FB4E3C9216CEA0B00AB0D3E /* TabBarNilViewController.swift */,
+				1FB4E3B0216CEA0800AB0D3E /* TabBarViewController.swift */,
+				1FB4E3C4216CEA0B00AB0D3E /* TableViewCell.swift */,
+				1FB4E3A5216CEA0700AB0D3E /* Tennis.swift */,
+				1FB4E3C8216CEA0B00AB0D3E /* TennisTableViewCell.swift */,
+				1FB4E3AE216CEA0800AB0D3E /* UIButtonAnimation.swift */,
+				1FB4E3C1216CEA0A00AB0D3E /* UIButtonDesigne.swift */,
+				1FB4E3C0216CEA0A00AB0D3E /* UITextField.swift */,
+				1FB4E3BB216CEA0A00AB0D3E /* UIView.swift */,
+				1FE686BF2185DFE900E74F05 /* LiveMatch.swift */,
+				1FB4E3B7216CEA0900AB0D3E /* UserHeaderView.swift */,
+				1FB4E3A4216CEA0700AB0D3E /* UserProfile.swift */,
+				1F9DBA7421FEECB30026764D /* AnimaTabViewController.swift */,
+				1FB4E3BA216CEA0A00AB0D3E /* UserProfileInfoTableViewCell.swift */,
+				1FB4E3BD216CEA0A00AB0D3E /* UserTabBarViewController.swift */,
+				1FB4E3A6216CEA0700AB0D3E /* ViewDesigne.swift */,
+				1FE987A721930B4A009C75BB /* Info.plist */,
+				1FB4E401216CEB4F00AB0D3E /* Asset Catalog.xcassets */,
+				1F196DAF216CE2520008A073 /* LaunchScreen.storyboard */,
+			);
+			path = BRAVOBET;
+			sourceTree = "<group>";
+		};
+		85EAE97CAF0328957DF8CA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077F35310E7E7CB3CE6F47C0 /* Pods-BRAVOBET.debug.xcconfig */,
+				A53D9EF6D2A9767C68B26FD0 /* Pods-BRAVOBET.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C4D6B5C83039C52AC831C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF421EA77A283D4FFFEC82F /* Pods_BRAVOBET.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F196DA2216CE2510008A073 /* BRAVOBET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F196DB5216CE2520008A073 /* Build configuration list for PBXNativeTarget "BRAVOBET" */;
+			buildPhases = (
+				2B4CA386AF98A48F9626EAE6 /* [CP] Check Pods Manifest.lock */,
+				1F196D9F216CE2510008A073 /* Sources */,
+				1F196DA0216CE2510008A073 /* Frameworks */,
+				1F196DA1216CE2510008A073 /* Resources */,
+				6545AE6A3B8DE0AD53AAF8F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRAVOBET;
+			productName = Betting;
+			productReference = 1F196DA3216CE2510008A073 /* BRAVOBET.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F196D9B216CE2510008A073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aleksandr Ilin";
+				TargetAttributes = {
+					1F196DA2216CE2510008A073 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1F196D9E216CE2510008A073 /* Build configuration list for PBXProject "BRAVOBET" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				uk,
+			);
+			mainGroup = 1F196D9A216CE2510008A073;
+			productRefGroup = 1F196DA4216CE2510008A073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F196DA2216CE2510008A073 /* BRAVOBET */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F196DA1216CE2510008A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4E41E216CEBDF00AB0D3E /* BasketballTableViewCell.xib in Resources */,
+				1F741B482189BA07001CA684 /* Localizable.strings in Resources */,
+				1FB4E402216CEB4F00AB0D3E /* Asset Catalog.xcassets in Resources */,
+				1FB4E41B216CEBDF00AB0D3E /* HeaderTennisCustomTableViewCell.xib in Resources */,
+				1FB4E41A216CEBDF00AB0D3E /* TennisTableViewCell.xib in Resources */,
+				1FB4E416216CEBDF00AB0D3E /* CustomSoccerHeaderView.xib in Resources */,
+				1FB5EAF121835C41003A59C5 /* Main.storyboard in Resources */,
+				1FE987A9219328A6009C75BB /* LaunchScreen.storyboard in Resources */,
+				1FB4E417216CEBDF00AB0D3E /* FootTableViewCell.xib in Resources */,
+				1FB4E41D216CEBDF00AB0D3E /* UserHeaderView.xib in Resources */,
+				1FB4E418216CEBDF00AB0D3E /* CommentTableViewCell.xib in Resources */,
+				1FB4E41C216CEBDF00AB0D3E /* CustomHeaderBasket.xib in Resources */,
+				1FB4E419216CEBDF00AB0D3E /* TableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4CA386AF98A48F9626EAE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BRAVOBET-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6545AE6A3B8DE0AD53AAF8F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BRAVOBET/Pods-BRAVOBET-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BRAVOBET/Pods-BRAVOBET-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F196D9F216CE2510008A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4E3D3216CEA0C00AB0D3E /* Alert.swift in Sources */,
+				1FB4E3D4216CEA0C00AB0D3E /* Date.swift in Sources */,
+				1FB4E3E5216CEA0C00AB0D3E /* Basketball.swift in Sources */,
+				1FB4E3E9216CEA0C00AB0D3E /* UserHeaderView.swift in Sources */,
+				1FB4E3D8216CEA0C00AB0D3E /* ViewDesigne.swift in Sources */,
+				1FB4E3CE216CEA0C00AB0D3E /* DesigneUITextField.swift in Sources */,
+				1FB4E3EF216CEA0C00AB0D3E /* UserTabBarViewController.swift in Sources */,
+				1FB4E3FA216CEA0C00AB0D3E /* TennisTableViewCell.swift in Sources */,
+				1FB4E3FD216CEA0C00AB0D3E /* convertNumber.swift in Sources */,
+				1FB4E3E8216CEA0C00AB0D3E /* HeaderMyCellTableViewCell.swift in Sources */,
+				1FB4E3DD216CEA0C00AB0D3E /* ContactTableViewCell.swift in Sources */,
+				1FB4E3FB216CEA0C00AB0D3E /* TabBarNilViewController.swift in Sources */,
+				1F196DA7216CE2510008A073 /* AppDelegate.swift in Sources */,
+				1FB4E3F2216CEA0C00AB0D3E /* UITextField.swift in Sources */,
+				1FB4E3ED216CEA0C00AB0D3E /* UIView.swift in Sources */,
+				1FE686C32185E25B00E74F05 /* LiveMatchTableViewCell.swift in Sources */,
+				1FB4E3DF216CEA0C00AB0D3E /* RegistrationController.swift in Sources */,
+				1FB4E3F1216CEA0C00AB0D3E /* BasketballTableViewCell.swift in Sources */,
+				1FB4E3EB216CEA0C00AB0D3E /* DetailSoccerTableViewController.swift in Sources */,
+				1FB4E3EA216CEA0C00AB0D3E /* CommentTableViewCell.swift in Sources */,
+				1FB4E3F6216CEA0C00AB0D3E /* TableViewCell.swift in Sources */,
+				1FB4E3D2216CEA0C00AB0D3E /* Comment.swift in Sources */,
+				1FB4E3DA216CEA0C00AB0D3E /* RecallViewController.swift in Sources */,
+				1FB4E3E3216CEA0C00AB0D3E /* FootTableViewCell.swift in Sources */,
+				1FB4E3E1216CEA0C00AB0D3E /* Soccer.swift in Sources */,
+				1FB4E3D7216CEA0C00AB0D3E /* Tennis.swift in Sources */,
+				1FB4E3F9216CEA0C00AB0D3E /* PrognozSegmentControler.swift in Sources */,
+				1FB4E3EE216CEA0C00AB0D3E /* GradientColor.swift in Sources */,
+				1FB4E3FE216CEA0C00AB0D3E /* LoginController.swift in Sources */,
+				1FB4E3D9216CEA0C00AB0D3E /* DetailBasketViewController.swift in Sources */,
+				1FB4E3D0216CEA0C00AB0D3E /* InfoMy.swift in Sources */,
+				1FB4E3CD216CEA0C00AB0D3E /* CommentViewController.swift in Sources */,
+				1FB4E3F0216CEA0C00AB0D3E /* HeaderTennisCustomTableViewCell.swift in Sources */,
+				1FB4E3D6216CEA0C00AB0D3E /* UserProfile.swift in Sources */,
+				1FB4E3E4216CEA0C00AB0D3E /* Color.swift in Sources */,
+				1F9795D92185B0FD00576D2C /* LiveMatchViewController.swift in Sources */,
+				1FB4E3E2216CEA0C00AB0D3E /* TabBarViewController.swift in Sources */,
+				1FB4E3FC216CEA0C00AB0D3E /* CustomSoccerHeaderView.swift in Sources */,
+				1FE686C02185DFE900E74F05 /* LiveMatch.swift in Sources */,
+				1FB4E3F4216CEA0C00AB0D3E /* ResetPassword.swift in Sources */,
+				1FB4E3F7216CEA0C00AB0D3E /* DetailTennisViewController.swift in Sources */,
+				1FB4E3F3216CEA0C00AB0D3E /* UIButtonDesigne.swift in Sources */,
+				1FB4E3DC216CEA0C00AB0D3E /* DesigneButton.swift in Sources */,
+				1FB4E3E0216CEA0C00AB0D3E /* UIButtonAnimation.swift in Sources */,
+				1FB4E3D1216CEA0C00AB0D3E /* CustomHeaderBasket.swift in Sources */,
+				1FB4E3E7216CEA0C00AB0D3E /* InfoUserProfile.swift in Sources */,
+				1FB4E3CF216CEA0C00AB0D3E /* LauncViewController.swift in Sources */,
+				1FB4E3F5216CEA0C00AB0D3E /* InfoViewController.swift in Sources */,
+				1FB4E3E6216CEA0C00AB0D3E /* InfoTableViewCell.swift in Sources */,
+				1F9DBA7521FEECB30026764D /* AnimaTabViewController.swift in Sources */,
+				1FB4E3DB216CEA0C00AB0D3E /* FacebookViewController.swift in Sources */,
+				1FB4E3EC216CEA0C00AB0D3E /* UserProfileInfoTableViewCell.swift in Sources */,
+				1FB4E3DE216CEA0C00AB0D3E /* StructuraColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F196DAF216CE2520008A073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F196DB0216CE2520008A073 /* Base */,
+				1F622642216CFAA100260DA2 /* ru */,
+				1F62264C216CFB6C00260DA2 /* uk */,
+				1F351F99216E8D2C00E71292 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F741B462189BA07001CA684 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F741B472189BA07001CA684 /* Base */,
+				1F741B492189BA1C001CA684 /* en */,
+				1F741B4A2189BA20001CA684 /* ru */,
+				1F741B4B2189BA23001CA684 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1FB4E404216CEBDD00AB0D3E /* CustomSoccerHeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E405216CEBDD00AB0D3E /* Base */,
+				1F62263C216CFA9D00260DA2 /* ru */,
+				1F622646216CFB6900260DA2 /* uk */,
+			);
+			name = CustomSoccerHeaderView.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E406216CEBDD00AB0D3E /* FootTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E407216CEBDD00AB0D3E /* Base */,
+				1F62263D216CFA9E00260DA2 /* ru */,
+				1F622647216CFB6A00260DA2 /* uk */,
+			);
+			name = FootTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E408216CEBDD00AB0D3E /* CommentTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E409216CEBDD00AB0D3E /* Base */,
+				1F62263A216CFA9C00260DA2 /* ru */,
+				1F622644216CFB6800260DA2 /* uk */,
+			);
+			name = CommentTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E40A216CEBDE00AB0D3E /* TableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E40B216CEBDE00AB0D3E /* Base */,
+				1F62263F216CFA9F00260DA2 /* ru */,
+				1F622649216CFB6B00260DA2 /* uk */,
+			);
+			name = TableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E40C216CEBDE00AB0D3E /* TennisTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E40D216CEBDE00AB0D3E /* Base */,
+				1F622640216CFA9F00260DA2 /* ru */,
+				1F62264A216CFB6B00260DA2 /* uk */,
+			);
+			name = TennisTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E40E216CEBDE00AB0D3E /* HeaderTennisCustomTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E40F216CEBDE00AB0D3E /* Base */,
+				1F62263E216CFA9E00260DA2 /* ru */,
+				1F622648216CFB6A00260DA2 /* uk */,
+			);
+			name = HeaderTennisCustomTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E410216CEBDE00AB0D3E /* CustomHeaderBasket.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E411216CEBDE00AB0D3E /* Base */,
+				1F62263B216CFA9D00260DA2 /* ru */,
+				1F622645216CFB6900260DA2 /* uk */,
+			);
+			name = CustomHeaderBasket.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E412216CEBDE00AB0D3E /* UserHeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E413216CEBDE00AB0D3E /* Base */,
+				1F622641216CFAA000260DA2 /* ru */,
+				1F62264B216CFB6C00260DA2 /* uk */,
+			);
+			name = UserHeaderView.xib;
+			sourceTree = "<group>";
+		};
+		1FB4E414216CEBDE00AB0D3E /* BasketballTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4E415216CEBDE00AB0D3E /* Base */,
+				1F622639216CFA9B00260DA2 /* ru */,
+				1F622643216CFB6700260DA2 /* uk */,
+			);
+			name = BasketballTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1FB5EAF321835C41003A59C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB5EAF221835C41003A59C5 /* Base */,
+				1FB5EAF521835C84003A59C5 /* ru */,
+				1FB5EAF621835C86003A59C5 /* uk */,
+				1F32E7B3219C8F1E00403FE9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F196DB3216CE2520008A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VKH5838WR5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F196DB4216CE2520008A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VKH5838WR5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F196DB6216CE2520008A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077F35310E7E7CB3CE6F47C0 /* Pods-BRAVOBET.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BRAVOBET/BRAVOBET.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKH5838WR5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../дизайн/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilinaleksandr.Bravo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1F196DB7216CE2520008A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53D9EF6D2A9767C68B26FD0 /* Pods-BRAVOBET.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BRAVOBET/BRAVOBET.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKH5838WR5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../дизайн/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilinaleksandr.Bravo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F196D9E216CE2510008A073 /* Build configuration list for PBXProject "BRAVOBET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F196DB3216CE2520008A073 /* Debug */,
+				1F196DB4216CE2520008A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F196DB5216CE2520008A073 /* Build configuration list for PBXNativeTarget "BRAVOBET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F196DB6216CE2520008A073 /* Debug */,
+				1F196DB7216CE2520008A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F196D9B216CE2510008A073 /* Project object */;
+}

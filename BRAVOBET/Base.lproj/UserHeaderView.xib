@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserHeaderView" customModule="BRAVOBET" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7L-dw-LMA" customClass="ViewDesigne" customModule="BRAVOBET" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="172"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="247305" translatesAutoresizingMaskIntoConstraints="NO" id="Fu2-iN-XIC">
+                            <rect key="frame" x="131" y="102" width="125" height="125"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="125" id="MoE-qU-P2j"/>
+                                <constraint firstAttribute="height" constant="125" id="rXQ-cw-0l2"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="172" id="I7E-gy-lcl"/>
+                        <constraint firstItem="Fu2-iN-XIC" firstAttribute="centerX" secondItem="z7L-dw-LMA" secondAttribute="centerX" constant="6" id="nsn-I8-FSL"/>
+                        <constraint firstAttribute="bottom" secondItem="Fu2-iN-XIC" secondAttribute="bottom" constant="-55" id="sdd-aC-pyO"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrT-hL-SZP">
+                    <rect key="frame" x="24" y="260" width="327" height="28.5"/>
+                    <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="whP-dt-4c6" firstAttribute="bottom" secondItem="RrT-hL-SZP" secondAttribute="bottom" constant="11.5" id="BOL-mA-Hqw"/>
+                <constraint firstItem="RrT-hL-SZP" firstAttribute="leading" secondItem="whP-dt-4c6" secondAttribute="leading" constant="24" id="CbG-R6-A0I"/>
+                <constraint firstItem="z7L-dw-LMA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IUN-PK-TCJ"/>
+                <constraint firstItem="z7L-dw-LMA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JUJ-Td-XIB"/>
+                <constraint firstItem="whP-dt-4c6" firstAttribute="trailing" secondItem="RrT-hL-SZP" secondAttribute="trailing" constant="24" id="UZn-zs-crV"/>
+                <constraint firstAttribute="trailing" secondItem="z7L-dw-LMA" secondAttribute="trailing" id="xyp-Me-7fZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="whP-dt-4c6"/>
+            <connections>
+                <outlet property="fotoUser" destination="Fu2-iN-XIC" id="054-6y-S2N"/>
+                <outlet property="headerView" destination="z7L-dw-LMA" id="9Lj-xL-fU1"/>
+                <outlet property="usname" destination="RrT-hL-SZP" id="KXY-Qy-dSD"/>
+            </connections>
+            <point key="canvasLocation" x="31.199999999999999" y="-606.29685157421295"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="247305" width="685" height="410"/>
+    </resources>
+</document>

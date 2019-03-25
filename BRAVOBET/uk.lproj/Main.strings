@@ -1,0 +1,140 @@
+
+/* Class = "UITextField"; placeholder = "  Е-маил"; ObjectID = "1Ns-Aj-BGh"; */
+"1Ns-Aj-BGh.placeholder" = "Eл -пошта";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "2iz-mL-cPb"; */
+"2iz-mL-cPb.normalTitle" = "+";
+
+/* Class = "UIButton"; normalTitle = "Facebook log IN"; ObjectID = "2jK-aE-qqH"; */
+"2jK-aE-qqH.normalTitle" = "Продовжити через Фейсбук";
+
+/* Class = "UILabel"; text = "Профиль Каппера"; ObjectID = "2lA-YK-YAm"; */
+"2lA-YK-YAm.text" = "Профiль Каппера";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2tW-NF-kkU"; */
+"2tW-NF-kkU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6zl-1B-JdF"; */
+"6zl-1B-JdF.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "9fC-XS-UQz"; */
+"9fC-XS-UQz.placeholder" = "Ел- пошта";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "A6n-AU-Aj3"; */
+"A6n-AU-Aj3.text" = "Немає облікового запису?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ag5-BL-7fW"; */
+"Ag5-BL-7fW.text" = "Label";
+
+/* Class = "UILabel"; text = "- or -"; ObjectID = "Bqs-kG-8pF"; */
+"Bqs-kG-8pF.text" = "- або -";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CMt-7A-sYx"; */
+"CMt-7A-sYx.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "country"; ObjectID = "E9I-u2-ogE"; */
+"E9I-u2-ogE.placeholder" = "Країна";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EwI-h2-VDm"; */
+"EwI-h2-VDm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FPD-2D-Wl5"; */
+"FPD-2D-Wl5.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Отправить"; ObjectID = "FQ4-SN-M2a"; */
+"FQ4-SN-M2a.normalTitle" = "Відправити";
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "I51-EU-WPk"; */
+"I51-EU-WPk.normalTitle" = "Вхiд";
+
+/* Class = "UITabBarItem"; title = "Отзывы"; ObjectID = "Ief-Xx-uuA"; */
+"Ief-Xx-uuA.title" = "Відкликання";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "IoO-b1-Qdw"; */
+"IoO-b1-Qdw.placeholder" = "Им'я";
+
+/* Class = "UINavigationItem"; title = "Отзывы"; ObjectID = "K4L-a1-bhC"; */
+"K4L-a1-bhC.title" = "Відкликання";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "OU2-Al-yGV"; */
+"OU2-Al-yGV.normalTitle" = "Логін";
+
+/* Class = "UIButton"; normalTitle = "Facebook IN"; ObjectID = "SUv-MM-BR0"; */
+"SUv-MM-BR0.normalTitle" ="Вхiд через Фейсбук";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "YNG-7j-BVT"; */
+"YNG-7j-BVT.placeholder" = "Им'я";
+
+/* Class = "UITabBarItem"; title = "Аккаунт"; ObjectID = "Ywj-Kk-Mkl"; */
+"Ywj-Kk-Mkl.title" = "Аккаунт";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "ZRg-9K-Jep"; */
+"ZRg-9K-Jep.text" = "Скидання пароля";
+
+/* Class = "UILabel"; text = "На указаный адрес прийдет письмо с дальнейшими указаниями"; ObjectID = "bgH-M2-fgp"; */
+"bgH-M2-fgp.text" = "На вказану адресу прийде лист з подальшими вказівками";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "bnz-C2-igI"; */
+"bnz-C2-igI.placeholder" = "Пароль";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "buA-B0-sA9"; */
+"buA-B0-sA9.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "bxt-WE-ns4"; */
+"bxt-WE-ns4.normalTitle" = "Скидання пароля";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "fBe-R5-Xfw"; */
+"fBe-R5-Xfw.normalTitle" = "Реєстрація";
+
+/* Class = "UITabBarItem"; title = "Прогнозы"; ObjectID = "fnF-k2-dib"; */
+"fnF-k2-dib.title" = "Прогноз";
+
+/* Class = "UIButton"; normalTitle = "Продолжить без регистрации"; ObjectID = "gch-ai-9l6"; */
+"gch-ai-9l6.normalTitle" = "Продовжити без реєстрації";
+
+/* Class = "UITextField"; placeholder = "country"; ObjectID = "hmx-io-NNk"; */
+"hmx-io-NNk.placeholder" = "Країна";
+
+/* Class = "UITabBarItem"; title = "Профиль"; ObjectID = "iaB-Lo-rnw"; */
+"iaB-Lo-rnw.title" = "Профiль";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "no6-0C-O2L"; */
+"no6-0C-O2L.placeholder" = "Им'я";
+
+/* Class = "UILabel"; text = "Отзыв"; ObjectID = "ors-Gi-xgm"; */
+"ors-Gi-xgm.text" = "Відкликання";
+
+/* Class = "UILabel"; text = "You have an account?"; ObjectID = "qG8-ww-M4R"; */
+"qG8-ww-M4R.text" = "У Вас є обліковий запис?";
+
+/* Class = "UIButton"; normalTitle = "forgot password?"; ObjectID = "qIn-0k-JIy"; */
+"qIn-0k-JIy.normalTitle" = "Відновлення пароля?";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "qJ6-dC-evV"; */
+"qJ6-dC-evV.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Имя"; ObjectID = "sja-Pv-ehd"; */
+"sja-Pv-ehd.text" = "Им'я";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "tB7-BM-Hfh"; */
+"tB7-BM-Hfh.normalTitle" = "Зареєструватися";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tX9-iq-7KZ"; */
+"tX9-iq-7KZ.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "e-mail"; ObjectID = "v3Y-8q-LWs"; */
+"v3Y-8q-LWs.placeholder" = "Им'я";
+
+/* Class = "UITabBarItem"; title = "Отзывы"; ObjectID = "vJj-VB-QvV"; */
+"vJj-VB-QvV.title" = "Відкликання";
+
+/* Class = "UISegmentedControl"; xPX-ax-lLM.segmentTitles[0] = "Футбол "; ObjectID = "xPX-ax-lLM"; */
+"xPX-ax-lLM.segmentTitles[0]" = "Футбол ";
+
+/* Class = "UISegmentedControl"; xPX-ax-lLM.segmentTitles[1] = "Баскетбол"; ObjectID = "xPX-ax-lLM"; */
+"xPX-ax-lLM.segmentTitles[1]" = "Баскетбол";
+
+/* Class = "UISegmentedControl"; xPX-ax-lLM.segmentTitles[2] = "Теннис"; ObjectID = "xPX-ax-lLM"; */
+"xPX-ax-lLM.segmentTitles[2]" = "Теніс";
+
+/* Class = "UITabBarItem"; title = "Прогнозы"; ObjectID = "yas-tM-xwh"; */
+"yas-tM-xwh.title" = "Прогноз";
